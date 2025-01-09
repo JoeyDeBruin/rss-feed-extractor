@@ -1,4 +1,4 @@
-# RSS Feed Extractor
+# RSS Feed Extractor For Substack
 
 Personal script to extract RSS feed data to CSV format.
 
