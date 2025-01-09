@@ -1,0 +1,18 @@
+# Output files
+*.csv
+*.xml
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# IDE-specific (if you're using any)
+.vscode/
+.idea/
+*.swp 
