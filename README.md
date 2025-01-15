@@ -1,12 +1,16 @@
-# RSS Feed Extractor For Substack
+# RSS Feed Parser and HTML Cleaner
 
-Personal script to extract RSS feed data to CSV format.
+This script parses an RSS feed, extracts data from each item, cleans the HTML content, and saves the results into a CSV file.
 
-## Usage
-The script extracts RSS feed data and creates two output files:
-- `rss_output.csv`: Basic feed info (titles, descriptions, dates)
-- `rss_output_with_content.csv`: Detailed feed info including content
+## Features
 
-## Dependencies
-- feedparser
-- pandas
+- Parses RSS feeds in XML format.
+- Extracts and cleans HTML content from `<content:encoded>` fields using BeautifulSoup.
+- Handles ordered (`<ol>`) and unordered (`<ul>`) lists for better formatting.
+- Outputs the cleaned and structured data to a CSV file.
+
+## Requirements
+
+- Python 3.6+
+- `beautifulsoup4`
+- `lxml`
