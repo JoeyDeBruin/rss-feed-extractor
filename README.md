@@ -1,6 +1,6 @@
-# RSS Feed Parser and HTML Cleaner
+# Substack RSS Feed Parser and HTML Cleaner
 
-This script parses an RSS feed, extracts data from each item, cleans the HTML content, and saves the results into a CSV file.
+This script parses an RSS feed from Substack, extracts data from each item, cleans the HTML content, and saves the results into a CSV file.
 
 ## Features
 
